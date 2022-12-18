@@ -1,0 +1,6 @@
+{  "data" : ["mkdir -p pwned_dir",
+            "touch pwned_dir/pwned.sh",
+            "echo 'reboot' > pwned_dir/pwned.sh",
+            "ls -la",
+            "!download to_download.txt",
+            "!upload to_upload.txt"] } 
